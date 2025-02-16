@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/interactive.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Webpage</h1>
+
+        <button class="button">Hover Over Me</button>
+
+        <br><br>
+        <div class="box"></div>
+
+        <br><br>
+        <div class="banner"></div>
+
+        <br><br>
+        <div class="loading-spinner"></div>
+         
+        <br><br>
+        <p id="result"></p>
+        <label for="width">Width:</label>
+        <input type="number" id="width" value="10">
+        <label for="height">Height:</label>
+        <input type="number" id="height" value="5">
+        <button onclick="calculateArea()">Calculate Area</button>
+
+        <br><br>
+        <div class="card">
+            <div class="card-content">
+                <h2>Mercedes Benz</h2>
+                <p>GLC.</p>
+            </div>
+            <div class="animated-element"></div>
+            <button onclick="toggleAnimation(this)">Animate</button>
+
+        </div>
+    </div>
+
+    <script src="interactive.js"></script>
+</body>
+</html>
